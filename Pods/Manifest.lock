@@ -1,0 +1,12 @@
+PODS:
+  - Mobile-Buy-SDK (3.0.7)
+
+DEPENDENCIES:
+  - Mobile-Buy-SDK (~> 3.0.7)
+
+SPEC CHECKSUMS:
+  Mobile-Buy-SDK: 311dbdcb1d537de33d17b1eac20c88d347aa0eb5
+
+PODFILE CHECKSUM: 86e52ac187b8db86e45d2498b593c9c77b0c743e
+
+COCOAPODS: 1.2.0
