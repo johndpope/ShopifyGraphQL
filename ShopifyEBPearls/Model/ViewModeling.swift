@@ -33,12 +33,7 @@ protocol ViewModeling {
     var viewModel: ViewModelType { get }
 }
 
-extension ViewModeling where ViewModelType.ModelType == Self {
-    
-    var viewModel: ViewModelType {
-        return ViewModelType(from: self)
-    }
-}
+
 
 extension Array where Element: ViewModeling {
     

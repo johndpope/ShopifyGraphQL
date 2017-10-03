@@ -26,6 +26,10 @@
 
 import Foundation
 
+protocol ModelType {
+    
+}
+
 protocol ViewModel {
     
     var model: ModelType { get }

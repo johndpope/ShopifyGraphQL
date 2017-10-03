@@ -9,11 +9,16 @@
 import Foundation
 import MobileBuySDK
 
+
 final class ClientQuery {
     
     // ----------------------------------
     //  MARK: - Storefront -
     //
+    static func testQuery()->SearchQueryQuery{
+        return BAMify.buildQuery()
+    }
+    
     static func queryForCollections(limit: Int, after cursor: String? = nil, productLimit: Int = 25, productCursor: String? = nil) -> Storefront.QueryRootQuery {
         
         return Storefront.buildQuery { $0
